@@ -1,0 +1,27 @@
+{
+  "config": {
+    "model_name": "distilbert-base-uncased",
+    "num_labels": 28,
+    "max_length": 64,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "epochs": 3,
+    "warmup_ratio": 0.1,
+    "device": "cuda"
+  },
+  "best_val_accuracy": 0.5899373387394029,
+  "test_accuracy": 0.5811682329095265,
+  "baseline_accuracy": 0.4195,
+  "history": {
+    "train_loss": [
+      1.9080478583264193,
+      1.33085329011467,
+      1.1361693253434575
+    ],
+    "val_accuracy": [
+      0.5744563214154073,
+      0.5899373387394029,
+      0.5875414670106893
+    ]
+  }
+}
