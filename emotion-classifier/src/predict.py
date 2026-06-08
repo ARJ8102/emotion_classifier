@@ -14,7 +14,7 @@ class EmotionPredictor:
             "surprise", "neutral"
         ]
         
-        hub_model = "ARJ8102/emotion-classifier-distilbert"
+        hub_model = "AtharvaRJ/emotion-classifier-distilbert"
         
         if model_path:
             # Local mode
