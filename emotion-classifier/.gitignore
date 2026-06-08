@@ -23,3 +23,11 @@ env/
 *.bin
 data/
 checkpoint/
+
+# Do not push trained model files to GitHub
+models/
+*.pt
+*.safetensors
+*.pkl
+*.bin
+*.ckpt

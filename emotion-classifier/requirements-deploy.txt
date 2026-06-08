@@ -5,20 +5,7 @@ pandas
 numpy
 matplotlib
 seaborn
-jupyter
-wandb
-streamlit
-
-datasets
-transformers
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
 streamlit
 huggingface_hub
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
-
-

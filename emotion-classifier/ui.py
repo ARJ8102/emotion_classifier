@@ -12,7 +12,11 @@ st.set_page_config(
 # ---- Load model (cached so it only loads once) ----
 @st.cache_resource
 def load_model():
-    return EmotionPredictor(model_path="models/best_distilbert.pt")c
+    import os
+    local_path = "models/best_distilbert.pt"
+    if os.path.exists(local_path):
+        return EmotionPredictor(model_path=local_path)
+    return EmotionPredictor()  # loads from HuggingFace Hub
 
 predictor = load_model()
 
